@@ -1,3 +1,15 @@
+@font-face {
+	font-family: 'Inter-Bold';
+	/* src: url('ArmWrestler.eot'); */
+	src: local('Inter-Bold'), url('/home/toypop/Documenti/edu-its/itsDrive/Programmazione WEB - HTML  CSS  Javascript  Typescript-20250221T190347Z-001/Programmazione WEB - HTML  CSS  Javascript  Typescript/css/Esercizi CSS/Social-links-profile/assets/fonts/static/Inter-Bold.ttf') format('truetype');
+	}
+
+@font-face {
+	font-family: 'Inter-Regular';
+	/* src: url('ArmWrestler.eot'); */
+	src: local('Inter-Regular'), url('/home/toypop/Documenti/edu-its/itsDrive/Programmazione WEB - HTML  CSS  Javascript  Typescript-20250221T190347Z-001/Programmazione WEB - HTML  CSS  Javascript  Typescript/css/Esercizi CSS/Social-links-profile/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+	}
+
 body{
     background-color: #141414;
     color: white;
@@ -23,19 +35,22 @@ img{
     border-radius: 50px;
 }
 .social{
-    font-size: 12px;
+    font: 12px 'Inter-Bold', Georgia, serif;
     text-align: center;
     padding-bottom: 15px;
 }
 
 h5{
+    font: 10px 'Inter-Bold', Georgia, serif;
     color: yellow;
 }
 
 h3{
+    font: 20px 'Inter-Bold', Georgia, serif;
     height: 6px;
 }
 .city{
+    font: 12px 'Inter-Regular', Georgia, serif;
     color: white;
 }
 
@@ -52,3 +67,4 @@ h3{
     background-color: yellow;
     color: black;
 }
+
