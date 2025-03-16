@@ -1,0 +1,53 @@
+body{
+    background-color: #141414;
+    color: white;
+}
+.wrapper{
+    background-color: #1f1f1f;
+    margin: 100px auto;
+    width: 300px;
+    border-radius: 8px;
+    /* padding: 10px; */
+}
+
+.bio{
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.photo{
+    padding-top: 25px;
+}
+
+img{
+    border-radius: 50px;
+}
+.social{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h5{
+    color: yellow;
+}
+
+h3{
+    height: 6px;
+}
+.city{
+    color: white;
+}
+
+.voci{
+    width: 240px;
+    background-color: #333333;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 14px auto;
+    line-height: 20px;
+}
+
+.voci:hover{
+    background-color: yellow;
+}
